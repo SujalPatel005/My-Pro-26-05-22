@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <title>Bootstrap1</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 align-self-center offset-lg-4 align-middle" 
+                id="CNAForm"  style="box-shadow: 0 0 1rem 1rem rgb(75, 248, 225)!important; margin-top: 40px; ">
+                <h3 class="text-center"style="margin-top:10px;"><i class="fa fa-users"></i>Create New Account
+                    <hr>
+                </h3>
+                <div class="form-group">
+                    <b>First Name:-</b>
+                    <div class="input-group input-group-md">
+                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                        <input type="text" id="TxtFirstname" maxlength="20" placeholder="ENTER YOUR FIRST NAME..."
+                            class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <b>Last Name:-</b>
+                    <div class="input-group input-group-md">
+                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                        <input type="text" id="TxtLastname" maxlength="20" placeholder="ENTER YOUR LAST NAME..."
+                            class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <b>Contact No:-</b>
+                    <div class="input-group input-group-md">
+                        <span class="input-group-text">+91</span>
+                        <input type="number" id="TxtContactNo" maxlength="10" placeholder="ENTER YOUR NUMBER..."
+                            class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <b>Gender:-</b>
+                    <div class="input-group input-group-md">
+                        <span class="input-group-text"><i class="fa fa-male"></i>||<i class="fa fa-female"></i></span>
+                        <select class="form-control" id="gender">
+                            <option value="op">Choose Gender...</option>
+                            <option value="m">Male</option>
+                            <option value="f">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <b>Email-Id:-</b>
+                    <div class="input-group input-group-md">
+                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                        <input type="email" id="TxtEmailId" maxlength="50" placeholder="ENTER YOUR Email-Id..."
+                            class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <b>Password:-</b>
+                    <div class="input-group input-group-md">
+                        <span class="input-group-text"><i class="fa fa-key"></i></span>
+                        <input type="password" id="TxtPassword" maxlength="20" placeholder="ENTER YOUR Password..."
+                            class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group input-group-md" style="padding-left:20%; margin:10px;">
+                        <a id="btncreateaccount" class="btn btn-success"> <i class="fa fa-user-plus"
+                                style="color:#ffffff; text-align: center;">Create New Account</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
